@@ -1,0 +1,38 @@
+{
+  "schema": "golden-life-bug-report/v1",
+  "game_version": "0.0.0",
+  "tester": "ai-1",
+  "tested_at": "2026-01-01T00:00:00+09:00",
+  "environments": [
+    { "viewport": "390x844", "orientation": "portrait", "color_scheme": "light", "browser": "Chromium (touch)" }
+  ],
+  "bugs": [
+    {
+      "id": "BUG-001",
+      "title": "(한 줄 요약)",
+      "severity": "minor",
+      "category": "layout",
+      "area": "hub",
+      "steps": ["시크릿 창에서 게임을 연다", "…", "…"],
+      "expected": "(기대한 동작)",
+      "actual": "(실제 동작)",
+      "reproducible": "always",
+      "repro_rate": "3/3",
+      "environment": { "viewport": "390x844", "orientation": "portrait", "color_scheme": "light", "browser": "Chromium (touch)" },
+      "start_state": "처음부터",
+      "console_errors": [],
+      "evidence": ["evidence/BUG-001_1.png"],
+      "suggestion": ""
+    }
+  ],
+  "suggestions": [
+    {
+      "id": "IDEA-001",
+      "title": "(건의 한 줄)",
+      "area": "puzzle",
+      "detail": "(무엇을 왜 바꾸면 좋은지)",
+      "priority": "medium"
+    }
+  ],
+  "retest": []
+}
